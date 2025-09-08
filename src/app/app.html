@@ -56,11 +56,11 @@
 
             @if(task.isCompleted){
             <button class="bg-green-600 hover:bg-green-500 cursor-pointer text-white font-semibold p-0.5 rounded-md"
-              (click)="updateTask(task.id)">Mark as
+              (click)="toggleTaskCompletedStatus(task.id)">Mark as
               Incomplete</button>
             }@else{
             <button class="bg-green-600 hover:bg-green-500 cursor-pointer text-white font-semibold p-0.5 rounded-md"
-              (click)="updateTask(task.id)">Mark as
+              (click)="toggleTaskCompletedStatus(task.id)">Mark as
               Complete</button>
             }
 

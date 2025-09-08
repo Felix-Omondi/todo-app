@@ -41,10 +41,17 @@ export class App {
     this.tasks = [];
   }
 
-  updateTask(id: string | number) {
+  toggleTaskCompletedStatus(id: string | number) {
     const task = this.tasks.find((task) => task.id === id);
     if (task) {
       task.isCompleted = !task.isCompleted;
     }
   }
+
+  //  updateTask(id: string | number) {
+  //   const task = this.tasks.find((task) => task.id === id);
+  //   if (task) {
+  //     task.isCompleted = !task.isCompleted;
+  //   }
+  // }
 }

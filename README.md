@@ -36,8 +36,11 @@ ng serve
 
 ## Project Structure
 ```src/app/app.component.ts```: Main component logic for task management.
+
 ```src/app/app.html```: Template for rendering the task form and task list.
-```src/app/app.css```: Styles for the application.    
+
+```src/app/app.css```: Styles for the application.
+   
 ```src/interfaces/task.ts```: TypeScript interface for the Task model.
 
 ## Usage
